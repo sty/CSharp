@@ -154,7 +154,7 @@ namespace Calculator
             }
         }
     }
-
+    //
     public class BackSpaceCommand : ICommand
     {
         public BackSpaceCommand(BinaryOperation op)
