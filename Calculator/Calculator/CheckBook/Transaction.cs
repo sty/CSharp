@@ -68,7 +68,8 @@ namespace Calculator.CheckBook
             get { return Transactions.Select(t=> t.Account).Distinct(); }
         }
         
-
+    
+        
         public void Fill()
         {
             Transactions = new ObservableCollection<Transaction>( new[] {
